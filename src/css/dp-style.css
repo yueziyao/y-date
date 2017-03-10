@@ -1,0 +1,42 @@
+body{
+    font-size: 10px;
+}
+/*基础样式-----------start*/
+.dp-table{
+    width: 100%;
+}
+.dp-table .dp-header{
+    font-size: 2.8rem;
+    height: 7rem;
+    line-height: 7rem;
+}
+.dp-table .dp-body{
+    height: 60rem;
+    overflow:scroll;
+}
+.dp-table .month-header{
+    text-align: center;
+    font-size: 2.8rem;
+    height:7rem;
+    line-height: 7rem;
+}
+.dp-table .base-box{
+    text-align: center;
+    float: left;
+    width: 14.28%;
+    font-size: 2.8rem;
+}
+.dp-table .day,.dp-table .price{
+    display: block;
+}
+.dp-table .price{
+    font-size: 2rem;
+}
+.dp-body .base-box{
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+/*基础样式-----------end*/
+.clear{
+    clear:both;
+}
